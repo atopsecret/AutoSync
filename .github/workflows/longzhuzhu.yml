@@ -18,7 +18,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync CenBoMin-GithubSync
+      - name: sync longzhuzhu-GithubSync
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
